@@ -10,11 +10,6 @@ current_savings = 0
 months = 0
 r = .04
 
-#while current_savings <= portion_down_payment:
-    #current_savings = (current_savings + monthly_investment) + ((current_savings + monthly_investment) * (r / 12))
-    #months = months + 1
-#print("Number of months: ", months)
-
 while current_savings < portion_down_payment:
     months += 1
     current_savings +=  monthly_investment
